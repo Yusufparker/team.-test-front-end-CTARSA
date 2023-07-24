@@ -1,0 +1,403 @@
+
+
+body{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.nav-brand{
+    font-size: 52px;
+    text-decoration: none;
+}
+
+.navbar-toggler:focus{
+    border-color: white;
+}
+
+.navbar-toggler-icon{
+    color: white !important;
+}
+.containerr{
+    width: 100%;
+    padding: 10px 120px;
+    margin: 0;
+}
+
+.review h2{
+    padding: 0 40px;
+}
+.navbar{
+    padding: 10px 120px;
+}
+
+.nav-brand::after{
+    content: '.';
+    color: #5468E7;
+
+}
+
+.navbar-nav{
+    margin-left: auto;
+}
+.navbar-nav .nav-item{
+    margin-right: 50px;
+}
+
+.navbar-nav .nav-item a{
+    color: white;
+    text-decoration: underline;
+}
+
+.btn-get-a{
+    background-color: rgba(84, 104, 231, 0.5);
+    color: white;
+    padding: 10px 44px;
+    border-radius: 4px;
+
+}
+
+.btn-get-a:hover{
+    transition: all .3s;
+    background-color: rgb(84, 104, 231);
+}
+
+.hero{
+    height: 800px;
+    background-image: url('img/hero-img.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-often{
+    margin-top: 100px;
+}
+
+.hero-often .content h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+.hero-often .content p{
+    width: 73%;
+    font-size: 18px;
+}
+
+.hero-often .content input{
+    outline: none;
+    width: 100%;
+    padding: 11px 50px 11px 16px;
+    border-radius: 4px;
+    border: 0;
+    color: #7676B2;
+
+}
+
+.hero-often .content input::placeholder{
+    color: #7676B2;
+}
+
+.hero-often .content .btn-input{
+    top: 10px;
+    right: 30px;
+    transition: all .3s;
+}
+.hero-often .content .btn-input:hover{
+    transition: all .3s;
+    transform: translateX(10px);
+}
+
+.hero-often .content .btn-get-e-a{
+    padding: 10px 40px;
+    background-color: #5468E7;
+    color: white;
+    display: block;
+    text-decoration: none;
+    border-radius: 4px;
+    
+}
+
+.hero-often .content .btn-get-e-a:hover{
+    transition: all .3s;
+    background-color: #3b4aaf;
+}
+
+
+
+.offer h2, .review h2{
+    font-size: 47px;
+    font-weight: bold;
+    color: #232340;
+}
+.offer p{
+    color: rgba(35, 35, 64, 0.9);
+}
+ .offer a{
+    color: #5468E7;
+    margin-top: 45px;
+    transition: all .3s;
+}
+
+.offer a:hover{
+    transition: all .3s;
+    transform: translateX(20px);
+}
+
+.mockup{
+    overflow: visible;
+}
+
+.mockup-section .containerr{
+    padding-right: 0;
+    overflow: hidden;
+}
+
+.mockup img{
+    width: 650px;
+}
+
+.info-section{
+    margin-top: 80px;
+}
+
+
+.review{
+    margin-top: 150px;
+}
+
+
+
+.card-carousel{
+    display: flex;
+    overflow-x: auto;
+    margin-top: 100px;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    scroll-behavior: smooth;
+}
+
+.card-carousel::-webkit-scrollbar {
+    display: none;
+}
+
+.review-card {
+    width: 300px;
+    flex: 0 0 auto;
+    margin-right: 30px;
+    padding: 44px 33px;
+    background-color: white;
+}
+
+
+.review-card:first-child{
+    margin-left: 120px;
+}
+
+
+.review-card .rating img{
+    width: 25px;
+    height: 25px;
+}
+.review-card .avatar{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+}
+.review-card  .biodata .name{
+    height: 56px;
+    width: 100%;
+    margin-left: 15px;
+}
+
+.review-card  .biodata .name p:first-child{
+    font-size: 20px;
+    
+}
+.review-card  .biodata .name p:nth-child(2){
+    margin-top: -18px;
+    font-size: 12px;
+    color: rgba(118, 118, 178, 1);
+}
+
+.btn-review{
+    padding: 30px 100px;
+}
+
+.btn-review div:hover{
+    cursor: pointer;
+}
+
+.btn-review div img{
+    width: 26px;
+    height: 26px;
+}
+
+footer{
+    background-color: #232340;
+    color: white;
+}
+
+.footer-nav p{
+    color: #5468E7;
+}
+
+.footer-nav{
+    margin-bottom: 50px;
+}
+
+.list-footer-nav a{
+    color: white;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.list-footer-nav p{
+    color: white;
+    font-size: 14px;
+}   
+
+.list-footer-nav .input-group{
+    width:100%;
+}
+
+.list-footer-nav input{
+    width: 100%;
+    padding: 8px 40px 8px 12px;
+    outline: none;
+    border: 0;
+    border-radius: 2px;
+    background-color: #F5F5F53D;
+    color: white;
+    font-size: 14px;
+}
+
+
+.list-footer-nav input::placeholder{
+    color: white;
+    font-size: 14px;
+}
+
+
+footer{
+    margin-top: 120px;
+    padding: 100px 0 40px 0;
+}
+
+footer .btn-input{
+    right: 15px;
+    top: 8px;
+    transition: all .3s;
+}
+
+footer .btn-input:hover{
+    transform: translateX(5px);
+    transition: all .3s;
+}
+
+footer .cr{
+    margin-top: 150px;
+}
+
+
+@media screen and (max-width: 992px){
+    .btn-get-a{
+        display:none;
+    }
+
+    .containerr{
+        padding: 5px 30px;
+    }
+
+    .navbar{
+        padding: 10px 50px;
+    }
+
+    .mockup-section .containerr{
+        padding-right: 0;
+    }
+    
+    .info1 .containerr{
+        padding-left: 0;
+    }
+
+    .offer1{
+        padding-left: 30px;
+    }
+    .info2 .containerr{
+        padding-right: 0;
+        overflow: hidden;
+    }
+
+    .offer2{
+        padding-right: 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .list-footer-nav .input-group{
+        width:50%;
+    }
+}
+@media screen and (max-width: 568px){
+    .navbar{
+        padding: 10px 40px;
+    }
+
+    .offer h2, .review h2{
+        font-size: 40px;
+    }
+    .review-card:first-child{
+        margin-left: 40px;
+    }
+    .info-section .containerr{
+        padding: 5px 30px 5px 0;
+    }
+    .list-footer-nav .input-group{
+        width:100%;
+    }
+
+    .footer-brand {
+        width: 250px;
+    }
+    
+  
+    
+
+
+}
+
+
+
+@media screen and (max-width: 430px){
+    .card-carousel{
+        margin-top: 50px;
+    }
+
+    .card-carousel .review-card{
+        width: 200px;
+    }
+    
+    .review-card .rating img{
+        width: 20px;
+        height: 20px;
+    }
+    .review-card .avatar{
+        width: 45px;
+        height: 45px;
+    }
+
+    .review-card  .biodata .name p:first-child{
+        font-size: 15px;
+        
+    }
+    .review-card  .biodata .name p:nth-child(2){
+        font-size: 12px;
+    }
+    .btn-review{
+        padding: 20px 50px;
+    }
+
+    
+}

@@ -1,0 +1,33 @@
+[
+    {
+      "nama": "Chealsea Morgan",
+      "gambar": "Avatar.png",
+      "isi": "Vestibulum eu quam nec neque pellentesque efficitur id eget nisl. Proin porta est convallis lacus blandit pretium sed non enim. Maecenas lacinia non orci at aliquam. Donec finibus, urna bibendum ultricies laoreet.",
+      "posisi": "CEO ot Subway"
+    },
+    {
+      "nama": "Nick Cave",
+      "gambar": "Avatar2.png",
+      "isi": "In a laoreet purus. Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis.",
+      "posisi": "CMO ot Nokia"
+    },
+    {
+      "nama": "Lana Rosenfeld",
+      "gambar": "Avatar3.png",
+      "isi": "Aliquam pulvinar vestibulum blandit. Donec sed nisl libero. Fusce dignissim luctus sem eu dapibus. Pellentesque vulputate quam a quam volutpat, sed ullamcorper erat commodo.",
+      "posisi": "Senior VP ot Pinterest"
+    },
+    {
+      "nama": "Giorgio Moroder",
+      "gambar": "Avatar4.png",
+      "isi": "Porta nisl dolor, molestie pellentesque elit molestie in. Morbi metus neque, elementum ullamcorper hendrerit eget, tincidunt et nisi. Sed magna nunc.",
+      "posisi": "CTO ot Glovo"
+    },
+    {
+      "nama": "Young Liu",
+      "gambar": "Avatar5.png",
+      "isi": "Integer turpis quam, laoreet id orci nec, ultrices lacinia nunc. Aliquam erat volutpat. Curabitur fringilla in purus eget egestas. Etiam quis. In a laoreet purus.",
+      "posisi": "CAO ot Foxconn"
+    }
+  ]
+                    
